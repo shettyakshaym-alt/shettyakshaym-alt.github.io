@@ -13,15 +13,14 @@
 
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
-            background: #ffffff;
-            color: #333333;
+            background: #fafafa;
+            color: #333;
             line-height: 1.6;
         }
 
-        /* Header Navigation */
         header {
-            background: #ffffff;
-            border-bottom: 1px solid #f0f0f0;
+            background: white;
+            border-bottom: 1px solid #eee;
             position: sticky;
             top: 0;
             z-index: 100;
@@ -39,7 +38,7 @@
         .logo {
             font-size: 1.3rem;
             font-weight: 600;
-            color: #000000;
+            color: #000;
             text-decoration: none;
         }
 
@@ -51,23 +50,21 @@
 
         .nav-links a {
             text-decoration: none;
-            color: #666666;
+            color: #666;
             font-size: 0.95rem;
             transition: color 0.3s;
         }
 
         .nav-links a:hover {
-            color: #000000;
+            color: #000;
         }
 
-        /* Main Container */
         main {
             max-width: 900px;
             margin: 0 auto;
             padding: 4rem 2rem;
         }
 
-        /* Hero Section */
         .hero {
             margin-bottom: 5rem;
         }
@@ -77,25 +74,23 @@
             font-weight: 300;
             margin-bottom: 1rem;
             letter-spacing: -1px;
-            color: #000000;
         }
 
         .hero .subtitle {
             font-size: 1.3rem;
-            color: #666666;
+            color: #666;
             font-weight: 300;
             margin-bottom: 2rem;
         }
 
         .bio {
             font-size: 1rem;
-            color: #555555;
+            color: #555;
             max-width: 700px;
             line-height: 1.8;
             margin-bottom: 2rem;
         }
 
-        /* Articles Section */
         .articles-section {
             margin: 4rem 0;
         }
@@ -104,14 +99,13 @@
             font-size: 1.5rem;
             font-weight: 400;
             margin-bottom: 2rem;
-            border-bottom: 1px solid #e0e0e0;
+            border-bottom: 1px solid #ddd;
             padding-bottom: 1rem;
-            color: #000000;
         }
 
         .article-card {
             padding: 2rem 0;
-            border-bottom: 1px solid #f0f0f0;
+            border-bottom: 1px solid #eee;
             transition: all 0.3s;
         }
 
@@ -122,7 +116,7 @@
         .article-title {
             font-size: 1.3rem;
             font-weight: 500;
-            color: #000000;
+            color: #000;
             text-decoration: none;
             display: inline-block;
             transition: color 0.3s;
@@ -133,19 +127,18 @@
         }
 
         .article-meta {
-            color: #999999;
+            color: #999;
             font-size: 0.9rem;
             margin-top: 0.5rem;
         }
 
         .article-excerpt {
-            color: #666666;
+            color: #666;
             margin-top: 0.8rem;
             font-size: 0.95rem;
             line-height: 1.6;
         }
 
-        /* Tags */
         .tags {
             display: flex;
             gap: 0.5rem;
@@ -154,30 +147,27 @@
         }
 
         .tag {
-            background: #f5f5f5;
-            color: #0066cc;
+            background: #f0f0f0;
+            color: #666;
             padding: 0.3rem 0.8rem;
             border-radius: 20px;
             font-size: 0.8rem;
             text-decoration: none;
             transition: all 0.3s;
-            border: 1px solid #e0e0e0;
         }
 
         .tag:hover {
-            background: #e8f0ff;
-            color: #0052a3;
-            border-color: #0066cc;
+            background: #e0e0e0;
+            color: #000;
         }
 
-        /* Footer */
         footer {
             margin-top: 5rem;
             padding: 3rem 2rem;
-            border-top: 1px solid #f0f0f0;
-            background: #fafafa;
+            border-top: 1px solid #eee;
+            background: white;
             text-align: center;
-            color: #999999;
+            color: #999;
             font-size: 0.9rem;
         }
 
@@ -189,16 +179,15 @@
         }
 
         .footer-links a {
-            color: #666666;
+            color: #666;
             text-decoration: none;
             transition: color 0.3s;
         }
 
         .footer-links a:hover {
-            color: #0066cc;
+            color: #000;
         }
 
-        /* Responsive */
         @media (max-width: 768px) {
             .hero h1 {
                 font-size: 2rem;
@@ -224,7 +213,6 @@
             <a href="/" class="logo">Shetty Akshay Mohan</a>
             <ul class="nav-links">
                 <li><a href="/">Home</a></li>
-                <li><a href="/about/">About</a></li>
                 <li><a href="#blog">Blog</a></li>
                 <li><a href="#projects">Projects</a></li>
             </ul>
@@ -236,24 +224,21 @@
             <h1>Shetty Akshay Mohan</h1>
             <p class="subtitle">Exploring sustainable shipping & decarbonization</p>
             <p class="bio">
-                I write about shipping industry transformation, decarbonization strategies, and the future of sustainable maritime transport. 
+                I write about shipping industry transformation, decarbonization strategies, and the future of sustainable maritime transport.
                 Currently working on initiatives to promote green shipping and explore alternative fuels for the maritime sector.
-            </p>
-            <p>
-                <a href="/about/" style="color:#0066cc;text-decoration:none;font-weight:500;">Learn more about my background</a>
             </p>
         </section>
 
         <section id="blog" class="articles-section">
             <h2>Latest Articles</h2>
-            
+
             <article class="article-card">
                 <a href="/posts/shipping-decarb/" class="article-title">
                     Decarbonizing Shipping: The Challenge and Opportunity of Our Time
                 </a>
                 <div class="article-meta">August 23, 2026</div>
                 <p class="article-excerpt">
-                    Shipping accounts for roughly 2.5% of global CO2 emissions—more than international aviation. 
+                    Shipping accounts for roughly 2.5% of global CO2 emissions—more than international aviation.
                     With global trade expected to grow, we face a critical choice: continue burning fossil fuels or transform maritime transport for a sustainable future.
                 </p>
                 <div class="tags">
@@ -266,11 +251,11 @@
 
         <section id="projects" class="articles-section">
             <h2>Projects</h2>
-            
+
             <article class="article-card">
-                <h3 style="font-weight: 500; color: #000000; margin-bottom: 0.5rem;">Decarbonization Research & Analysis</h3>
+                <h3 style="font-weight: 500; color: #000; margin-bottom: 0.5rem;">Decarbonization Research & Analysis</h3>
                 <p class="article-excerpt">
-                    A comprehensive analysis of shipping industry decarbonization strategies, technologies, and regulatory frameworks. 
+                    A comprehensive analysis of shipping industry decarbonization strategies, technologies, and regulatory frameworks.
                     Exploring alternative fuels, operational efficiency, and sustainable maritime solutions.
                 </p>
                 <div class="tags">
@@ -281,7 +266,7 @@
             </article>
 
             <article class="article-card">
-                <h3 style="font-weight: 500; color: #000000; margin-bottom: 0.5rem;">Maritime Sustainability Initiative</h3>
+                <h3 style="font-weight: 500; color: #000; margin-bottom: 0.5rem;">Maritime Sustainability Initiative</h3>
                 <p class="article-excerpt">
                     Working on initiatives to promote sustainable practices in the shipping industry, with a focus on regulatory frameworks and industry adoption.
                 </p>
