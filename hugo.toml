@@ -32,6 +32,11 @@ paginate = 10
   weight = 10
 
 [[params.menu.main]]
+  name = "About"
+  pageRef = "/about"
+  weight = 15
+
+[[params.menu.main]]
   name = "Projects"
   pageRef = "/projects"
   weight = 20
