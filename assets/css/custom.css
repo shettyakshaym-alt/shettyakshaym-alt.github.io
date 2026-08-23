@@ -160,6 +160,14 @@ header nav[aria-label="Main menu"] {
   height: auto !important;
 }
 
+header .hidden.md\:flex {
+  display: flex !important;
+}
+
+header .md\:hidden {
+  display: none !important;
+}
+
 header nav[aria-label="Main menu"] > a {
   display: inline-flex !important;
   visibility: visible !important;
