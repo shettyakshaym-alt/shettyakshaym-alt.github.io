@@ -191,3 +191,12 @@ header button[aria-label="Main menu"],
 header nav[aria-label="Main menu"] > div {
   display: none !important;
 }
+
+/* Hide blog listing dates and year group headings */
+main > div > h2 {
+  display: none !important;
+}
+
+article.article-link--simple .text-sm.text-neutral-500 {
+  display: none !important;
+}
