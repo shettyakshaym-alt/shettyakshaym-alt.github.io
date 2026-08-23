@@ -86,6 +86,7 @@ a {
 
 a:hover {
   color: var(--accent-alt);
+  text-shadow: 0 0 14px rgba(37, 99, 235, 0.18);
 }
 
 article, section {
@@ -100,9 +101,10 @@ article, section {
 }
 
 article:hover, section:hover {
-  transform: translateY(-3px);
-  border-color: rgba(37, 99, 235, 0.20);
-  box-shadow: 0 18px 50px rgba(15, 23, 42, 0.08);
+  transform: translateY(-6px);
+  border-color: rgba(37, 99, 235, 0.32);
+  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.10);
+  background: rgba(255, 255, 255, 0.96) !important;
 }
 
 code {
@@ -145,7 +147,8 @@ pre code {
 
 .tag:hover {
   transform: translateY(-1px);
-  border-color: rgba(37, 99, 235, 0.30);
+  border-color: rgba(37, 99, 235, 0.40);
+  box-shadow: 0 10px 22px rgba(37, 99, 235, 0.12);
 }
 
 header {
@@ -181,6 +184,10 @@ nav a:hover::after {
   transform: scaleX(1);
 }
 
+nav a:hover {
+  transform: translateY(-1px);
+}
+
 .post-meta, .date {
   color: var(--text-secondary);
 }
@@ -199,7 +206,7 @@ button, .button, input[type="submit"] {
 
 button:hover, .button:hover, input[type="submit"]:hover {
   transform: translateY(-2px);
-  box-shadow: 0 14px 30px rgba(37, 99, 235, 0.18);
+  box-shadow: 0 16px 34px rgba(37, 99, 235, 0.24);
 }
 
 blockquote {
