@@ -15,25 +15,25 @@ My professional journey spans technical expertise in marine systems, strategic s
 ## Education
 
 ### Bachelor of Technology in Marine Engineering
-**BITS Pilani** | 2015  
+**BITS Pilani**  
 CGPA: 8.94  
 Comprehensive foundation in marine engineering, naval architecture, and marine propulsion systems.
 
 ### Diploma of Higher Education in Shipping Management & Chartering
-**Lloyd's Maritime Institute** | 2022  
+**Lloyd's Maritime Institute**  
 Grade: Distinction  
 Advanced training in shipping operations, commercial chartering, and maritime economics.
 
 ### Post Graduate Diploma in Management (Shipping Management)
-**National Maritime Management Institute (NMIS), Mumbai** | 2024  
+**NMIS**  
 Specialized focus on maritime business strategy, shipping finance, and port management.
 
 ### PGP in Artificial Intelligence & Machine Learning
-**Texas University** | Ongoing  
+**Texas University**  
 Exploring applications of AI/ML in maritime sustainability and operational optimization.
 
 ### Certified Independent Director
-**Indian Institute of Corporate Affairs** | 2026  
+**Indian Institute of Corporate Affairs**  
 Specialized certification in corporate governance and board-level decision-making.
 
 ---
