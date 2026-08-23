@@ -5,7 +5,7 @@ description = "Exploring the future of sustainable shipping and decarbonization"
 [params]
   colorScheme = "light"
   customCSS = ["css/custom.css"]
-  showDate = true
+  showDate = false
   showReadingTime = false
   showTableOfContents = false
   showBreadcrumbs = false

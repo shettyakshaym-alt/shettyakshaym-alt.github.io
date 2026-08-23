@@ -9,7 +9,7 @@ paginate = 10
 
 [params]
   description = "Exploring the future of sustainable shipping and decarbonization"
-  showDate = true
+  showDate = false
   showReadingTime = false
   showTableOfContents = false
   showBreadcrumbs = false
