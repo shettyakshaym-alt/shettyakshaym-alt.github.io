@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Shipping &amp; Decarbonization</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Shipping &amp; Decarbonization</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Decarbonizing Shipping: The Challenge and Opportunity of Our Time</title>
+      <link>http://localhost:1313/posts/shipping-decarb/</link>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/shipping-decarb/</guid>
+      <description>&lt;h2 id=&#34;why-shipping-decarbonization-matters&#34;&gt;Why Shipping Decarbonization Matters&lt;/h2&gt;
+&lt;p&gt;Shipping accounts for roughly &lt;strong&gt;2.5% of global CO2 emissions&lt;/strong&gt;—more than international aviation. With global trade expected to grow, we face a critical choice: continue burning fossil fuels or transform maritime transport for a sustainable future.&lt;/p&gt;
+&lt;p&gt;The numbers are stark. A single large container ship can emit as much CO2 in one year as &lt;strong&gt;50,000 cars&lt;/strong&gt;. Yet shipping is the backbone of global commerce—over 80% of global trade by volume moves by sea. We can&amp;rsquo;t simply stop shipping; we must decarbonize it.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
