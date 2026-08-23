@@ -1,0 +1,52 @@
+baseURL = "https://yourusername.github.io/"
+locale = "en"
+title = "Shetty Akshay Mohan"
+theme = "blowfish"
+paginate = 10
+
+[outputs]
+  home = ["HTML", "JSON"]
+
+[params]
+  description = "Exploring the future of sustainable shipping and decarbonization"
+  showDate = true
+  showReadingTime = false
+  showTableOfContents = false
+  showBreadcrumbs = false
+  showSummary = true
+  showTags = true
+  
+  # Dark mode
+  colorScheme = "dark"
+  customCSS = ["css/custom.css"]
+
+[params.author]
+  name = "Shetty Akshay Mohan"
+  image = ""
+  headline = "Exploring sustainable shipping"
+  bio = "Thoughts on decarbonization and maritime sustainability"
+
+[[params.menu.main]]
+  name = "Home"
+  pageRef = "/"
+  weight = 10
+
+[[params.menu.main]]
+  name = "Projects"
+  pageRef = "/projects"
+  weight = 20
+
+[[params.menu.main]]
+  name = "Blog"
+  pageRef = "/posts"
+  weight = 30
+
+[[params.socialIcons]]
+  icon = "github"
+  title = "GitHub"
+  url = "https://github.com/yourusername"
+
+[[params.socialIcons]]
+  icon = "linkedin"
+  title = "LinkedIn"
+  url = "https://linkedin.com/in/yourprofile"
