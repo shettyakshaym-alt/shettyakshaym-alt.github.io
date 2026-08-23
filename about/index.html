@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Shetty Akshay Mohan</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+            background: #fafafa;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: white;
+            border-bottom: 1px solid #eee;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 1.5rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #000;
+            text-decoration: none;
+        }
+        .nav-links {
+            display: flex;
+            gap: 2.5rem;
+            list-style: none;
+        }
+        .nav-links a {
+            text-decoration: none;
+            color: #666;
+            font-size: 0.95rem;
+        }
+        .nav-links a:hover { color: #000; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+        .hero {
+            margin-bottom: 4rem;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 300;
+            margin-bottom: 1rem;
+            letter-spacing: -1px;
+        }
+        .hero .subtitle {
+            font-size: 1.3rem;
+            color: #666;
+            font-weight: 300;
+            margin-bottom: 2rem;
+        }
+        .bio {
+            max-width: 700px;
+            color: #555;
+            line-height: 1.8;
+        }
+        .articles-section {
+            margin: 4rem 0;
+        }
+        .articles-section h2 {
+            font-size: 1.5rem;
+            font-weight: 400;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 1rem;
+        }
+        .article-card {
+            padding: 2rem 0;
+            border-bottom: 1px solid #eee;
+        }
+        .article-title {
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: #000;
+            margin-bottom: 0.5rem;
+        }
+        .article-excerpt {
+            color: #666;
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin-top: 0.7rem;
+        }
+        .tags {
+            display: flex;
+            gap: 0.5rem;
+            margin-top: 1rem;
+            flex-wrap: wrap;
+        }
+        .tag {
+            background: #f0f0f0;
+            color: #666;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            text-decoration: none;
+        }
+        footer {
+            margin-top: 5rem;
+            padding: 3rem 2rem;
+            border-top: 1px solid #eee;
+            background: white;
+            text-align: center;
+            color: #999;
+            font-size: 0.9rem;
+        }
+        .footer-links {
+            margin-bottom: 1rem;
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+        }
+        .footer-links a {
+            color: #666;
+            text-decoration: none;
+        }
+        .footer-links a:hover { color: #000; }
+        .education-item {
+            margin-bottom: 1.5rem;
+            padding: 1.25rem 1.5rem;
+            border: 1px solid #eee;
+            border-radius: 16px;
+            background: #fff;
+        }
+        .education-item h3 {
+            font-size: 1.05rem;
+            color: #000;
+            margin-bottom: 0.3rem;
+        }
+        .meta {
+            color: #777;
+            font-size: 0.95rem;
+            margin-bottom: 0.5rem;
+        }
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2rem; }
+            .nav-links { gap: 1.5rem; }
+            main { padding: 2rem 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/" class="logo">Shetty Akshay Mohan</a>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about/">About</a></li>
+                <li><a href="/#blog">Blog</a></li>
+                <li><a href="/#projects">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>About Me</h1>
+            <p class="subtitle">Shetty Akshay Mohan</p>
+            <p class="bio">
+                I work in shipping and maritime sustainability, with a focus on decarbonization, operations, and emerging technology.
+                My background combines marine engineering, shipping management, and AI/ML.
+            </p>
+        </section>
+
+        <section class="articles-section">
+            <h2>Education</h2>
+
+            <div class="education-item">
+                <h3>Bachelor of Technology in Marine Engineering</h3>
+                <div class="meta">BITS Pilani | 2015 | CGPA 8.94</div>
+                <p class="article-excerpt">Foundation in marine engineering, propulsion systems, and shipboard operations.</p>
+            </div>
+
+            <div class="education-item">
+                <h3>Diploma of Higher Education in Shipping Management & Chartering</h3>
+                <div class="meta">Lloyd's Maritime Institute | 2022 | Distinction</div>
+                <p class="article-excerpt">Advanced study in shipping operations, chartering, and maritime economics.</p>
+            </div>
+
+            <div class="education-item">
+                <h3>Post Graduate Diploma in Management (Shipping Management)</h3>
+                <div class="meta">NMIS Mumbai | 2024</div>
+                <p class="article-excerpt">Focused on maritime business strategy, shipping finance, and port management.</p>
+            </div>
+
+            <div class="education-item">
+                <h3>PGP in Artificial Intelligence & Machine Learning</h3>
+                <div class="meta">Texas University | Ongoing</div>
+                <p class="article-excerpt">Exploring AI/ML applications in maritime sustainability and optimization.</p>
+            </div>
+
+            <div class="education-item">
+                <h3>Certified Independent Director</h3>
+                <div class="meta">Indian Institute of Corporate Affairs | 2026</div>
+                <p class="article-excerpt">Corporate governance and board-level decision-making certification.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="https://github.com/shettyakshaym-alt">GitHub</a>
+            <a href="https://linkedin.com/in/shettyakshaym">LinkedIn</a>
+        </div>
+        <p>&copy; 2026 Shetty Akshay Mohan. All rights reserved.</p>
+    </footer>
+</body>
+</html>
