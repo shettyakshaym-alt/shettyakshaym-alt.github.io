@@ -151,3 +151,25 @@ blockquote {
   article, section { padding: 1.5rem; }
   nav a { margin-right: 1rem; font-size: 0.8rem; }
 }
+
+/* Force the Blowfish header to stay in tab mode */
+nav[aria-label="Main menu"] {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: center !important;
+  gap: 1rem !important;
+  height: auto !important;
+}
+
+nav[aria-label="Main menu"] > a {
+  display: inline-flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+nav[aria-label="Main menu"] > div,
+nav[aria-label="Main menu"] button[aria-label="Switch to dark appearance"],
+nav[aria-label="Main menu"] button[aria-label="Search (/ or ⌘K)"],
+nav[aria-label="Main menu"] label[aria-label="Main menu"] {
+  display: none !important;
+}
