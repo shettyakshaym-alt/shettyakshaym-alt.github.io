@@ -152,7 +152,6 @@ blockquote {
   nav a { margin-right: 1rem; font-size: 0.8rem; }
 }
 
-/* Force the Blowfish header to stay in tab mode */
 header nav[aria-label="Main menu"] {
   display: flex !important;
   flex-wrap: wrap !important;
