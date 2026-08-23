@@ -16,8 +16,8 @@ paginate = 10
   showSummary = true
   showTags = true
   
-  # Dark mode
-  colorScheme = "dark"
+  # Light mode
+  colorScheme = "light"
   customCSS = ["css/custom.css"]
 
 [params.author]
