@@ -153,7 +153,7 @@ blockquote {
 }
 
 /* Force the Blowfish header to stay in tab mode */
-nav[aria-label="Main menu"] {
+header nav[aria-label="Main menu"] {
   display: flex !important;
   flex-wrap: wrap !important;
   align-items: center !important;
@@ -161,15 +161,16 @@ nav[aria-label="Main menu"] {
   height: auto !important;
 }
 
-nav[aria-label="Main menu"] > a {
+header nav[aria-label="Main menu"] > a {
   display: inline-flex !important;
   visibility: visible !important;
   opacity: 1 !important;
 }
 
-nav[aria-label="Main menu"] > div,
-nav[aria-label="Main menu"] button[aria-label="Switch to dark appearance"],
-nav[aria-label="Main menu"] button[aria-label="Search (/ or ⌘K)"],
-nav[aria-label="Main menu"] label[aria-label="Main menu"] {
+header button[aria-label="Switch to dark appearance"],
+header button[aria-label="Search (/ or ⌘K)"],
+header label[aria-label="Main menu"],
+header button[aria-label="Main menu"],
+header nav[aria-label="Main menu"] > div {
   display: none !important;
 }
